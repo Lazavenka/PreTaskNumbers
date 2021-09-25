@@ -1,0 +1,75 @@
+2021-09-25 21:27:21.876 [main] INFO  Number reader log - Read number: 1.424
+2021-09-25 21:27:21.886 [main] INFO  Number reader log - Incorrect number format in line: 24,545
+2021-09-25 21:27:21.886 [main] INFO  Number reader log - Read number: 2.555
+2021-09-25 21:27:21.887 [main] INFO  Number reader log - Read number: 0.344
+2021-09-25 21:27:21.888 [main] INFO  Number reader log - Read number: .233
+2021-09-25 21:27:21.888 [main] INFO  Number reader log - Incorrect number format in line: 123.4.42
+2021-09-25 21:27:21.889 [main] INFO  Number reader log - Read number: 0
+2021-09-25 21:27:21.889 [main] INFO  Number reader log - Read number: 0.0
+2021-09-25 21:27:21.891 [main] INFO  Number reader log - Read number: -34.342
+2021-09-25 21:28:07.538 [main] INFO  Number reader log - Read number: 1.424
+2021-09-25 21:28:07.546 [main] INFO  Number reader log - Incorrect number format in line: 24,545
+2021-09-25 21:28:07.546 [main] INFO  Number reader log - Read number: 2.555
+2021-09-25 21:28:07.547 [main] INFO  Number reader log - Read number: 0.344
+2021-09-25 21:28:07.548 [main] INFO  Number reader log - Incorrect number format in line: 
+2021-09-25 21:28:07.548 [main] INFO  Number reader log - Read number: .233
+2021-09-25 21:28:07.549 [main] INFO  Number reader log - Incorrect number format in line: 123.4.42
+2021-09-25 21:28:07.549 [main] INFO  Number reader log - Read number: 0
+2021-09-25 21:28:07.549 [main] INFO  Number reader log - Read number: 0.0
+2021-09-25 21:28:07.550 [main] INFO  Number reader log - Read number: -34.342
+2021-09-25 21:46:32.720 [main] INFO  Number reader log - Read number: 1.424
+2021-09-25 21:46:32.726 [main] INFO  Number reader log - Read number: 2.333
+2021-09-25 21:46:32.731 [main] INFO  by.epam.webdevelopment.App - Calculation result: 3.3221920000000003
+2021-09-25 21:47:31.848 [main] INFO  Number reader log - Read number: 1.424
+2021-09-25 21:47:31.857 [main] INFO  Number reader log - Read number: 2.333
+2021-09-25 21:47:31.871 [main] INFO  by.epam.webdevelopment.App - Calculation result: %.5d
+2021-09-25 21:47:42.208 [main] INFO  Number reader log - Read number: 1.424
+2021-09-25 21:47:42.215 [main] INFO  Number reader log - Read number: 2.333
+2021-09-25 21:47:42.220 [main] INFO  by.epam.webdevelopment.App - Calculation result: 3,32219
+2021-09-25 21:53:23.242 [main] INFO  Number reader log - Read number: 1.424
+2021-09-25 21:53:23.249 [main] INFO  Number reader log - Read number: 2.333
+2021-09-25 21:53:23.254 [main] INFO  by.epam.webdevelopment.App - Calculation result: 3,75700
+2021-09-25 21:53:23.256 [main] INFO  by.epam.webdevelopment.App - Calculation result: 3,32219
+2021-09-25 21:53:23.257 [main] INFO  by.epam.webdevelopment.App - Calculation result: -0,90900
+2021-09-25 21:53:23.257 [main] INFO  by.epam.webdevelopment.App - Calculation result: 0,61037
+2021-09-25 21:58:55.499 [main] INFO  Number reader log - Read number: 1.424
+2021-09-25 21:58:55.507 [main] INFO  Number reader log - Read number: 2.333
+2021-09-25 21:58:55.514 [main] INFO  by.epam.webdevelopment.App - class by.epam.webdevelopment.service.Addition result: 3,75700
+2021-09-25 21:58:55.515 [main] INFO  by.epam.webdevelopment.App - class by.epam.webdevelopment.service.Multiplication result: 3,32219
+2021-09-25 21:58:55.516 [main] INFO  by.epam.webdevelopment.App - class by.epam.webdevelopment.service.Subtraction result: -0,90900
+2021-09-25 21:58:55.517 [main] INFO  by.epam.webdevelopment.App - class by.epam.webdevelopment.service.Division result: 0,61037
+2021-09-25 21:59:16.734 [main] INFO  Number reader log - Read number: 1.424
+2021-09-25 21:59:16.743 [main] INFO  Number reader log - Read number: 2.333
+2021-09-25 21:59:16.750 [main] INFO  by.epam.webdevelopment.App - Addition result: 3,75700
+2021-09-25 21:59:16.751 [main] INFO  by.epam.webdevelopment.App - Multiplication result: 3,32219
+2021-09-25 21:59:16.752 [main] INFO  by.epam.webdevelopment.App - Subtraction result: -0,90900
+2021-09-25 21:59:16.753 [main] INFO  by.epam.webdevelopment.App - Division result: 0,61037
+2021-09-25 23:03:51.539 [main] INFO  Number reader log - Read number: 1.424
+2021-09-25 23:03:51.545 [main] INFO  Number reader log - Read number: 2.333
+2021-09-25 23:03:51.546 [main] INFO  Number reader log - Incorrect number format in line: 4..2
+2021-09-25 23:03:51.547 [main] INFO  Number reader log - Read number: 4.1
+2021-09-25 23:03:51.547 [main] INFO  by.epam.webdevelopment.App - More than 2 numbers!
+2021-09-25 23:04:27.532 [main] INFO  Number reader log - Read number: 1.424
+2021-09-25 23:04:27.541 [main] INFO  Number reader log - Read number: 2.333
+2021-09-25 23:04:27.550 [main] INFO  by.epam.webdevelopment.App - Addition result: 3,75700
+2021-09-25 23:04:27.551 [main] INFO  by.epam.webdevelopment.App - Multiplication result: 3,32219
+2021-09-25 23:04:27.553 [main] INFO  by.epam.webdevelopment.App - Subtraction result: -0,90900
+2021-09-25 23:04:27.554 [main] INFO  by.epam.webdevelopment.App - Division result: 0,61037
+2021-09-25 23:07:09.750 [main] INFO  Number reader log - Read number: 1.424
+2021-09-25 23:07:09.758 [main] INFO  Number reader log - Read number: 2.333
+2021-09-25 23:07:09.766 [main] INFO  NumbersProcessing - Addition result: 3,75700
+2021-09-25 23:07:09.767 [main] INFO  NumbersProcessing - Multiplication result: 3,32219
+2021-09-25 23:07:09.767 [main] INFO  NumbersProcessing - Subtraction result: -0,90900
+2021-09-25 23:07:09.768 [main] INFO  NumbersProcessing - Division result: 0,61037
+2021-09-25 23:07:33.497 [main] INFO  NumberReader - Read number: 1.424
+2021-09-25 23:07:33.511 [main] INFO  NumberReader - Read number: 2.333
+2021-09-25 23:07:33.517 [main] INFO  NumbersProcessing - Addition result: 3,75700
+2021-09-25 23:07:33.518 [main] INFO  NumbersProcessing - Multiplication result: 3,32219
+2021-09-25 23:07:33.518 [main] INFO  NumbersProcessing - Subtraction result: -0,90900
+2021-09-25 23:07:33.519 [main] INFO  NumbersProcessing - Division result: 0,61037
+2021-09-25 23:08:26.121 [main] INFO  NumberReader - Read number: 1.424
+2021-09-25 23:08:26.128 [main] INFO  NumberReader - Read number: 2.333
+2021-09-25 23:08:26.135 [main] INFO  NumbersProcessing - Addition result: 3,75700
+2021-09-25 23:08:26.136 [main] INFO  NumbersProcessing - Multiplication result: 3,32219
+2021-09-25 23:08:26.138 [main] INFO  NumbersProcessing - Subtraction result: -0,90900
+2021-09-25 23:08:26.138 [main] INFO  NumbersProcessing - Division result: 0,61037
