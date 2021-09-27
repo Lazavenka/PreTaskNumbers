@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class App {
-    private final static Logger LOGGER = LogManager.getLogger(App.class);
+    private final static Logger LOGGER = LogManager.getLogger(App.class.getSimpleName());
 
     public static void main(String[] args) {
         NumberValidator validator = new NumberValidatorByStringPattern();
@@ -38,6 +38,7 @@ public class App {
             for (ArithmeticAction action: actions) {
                 numbersProcessing.setAction(action);
                 answer = numbersProcessing.processNumbers(numbers);
+                LOGGER.printf(Level.INFO, action.getClass().getSimpleName() + " result: %.5f", answer);
             }
         } catch (FileNotFoundException | ProjectException e) {
             e.printStackTrace();

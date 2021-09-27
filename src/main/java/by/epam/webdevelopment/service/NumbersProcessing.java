@@ -30,12 +30,15 @@ public class NumbersProcessing {
     }
 
     public double processNumbers(List<CustomNumber> numbers) throws ProjectException {
-        if (numbers.size() == 2) {
-            double result = action.doSomeMath(numbers.get(0), numbers.get(1));
-            LOGGER.printf(Level.INFO, action.getClass().getSimpleName() + " result: %.5f", result);
-            return result;
-        } else {
-            LOGGER.log(Level.DEBUG, "More than 2 numbers!");
+        if (numbers.size() == 1){
+            LOGGER.log(Level.INFO, "Provided only 1 number!");
+            return numbers.get(0).getValue();
+        }else if (numbers.size() == 2) {
+            return action.doSomeMath(numbers.get(0), numbers.get(1));
+        } else if (numbers.isEmpty()){
+            throw new ProjectException("Provided empty list...");
+        }else {
+            LOGGER.log(Level.INFO, "More than 2 numbers!");
             throw new ProjectException("Not implemented yet...");
         }
     }
