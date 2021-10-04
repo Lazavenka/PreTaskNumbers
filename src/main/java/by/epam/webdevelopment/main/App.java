@@ -1,4 +1,4 @@
-package by.epam.webdevelopment;
+package by.epam.webdevelopment.main;
 
 import by.epam.webdevelopment.entity.CustomNumber;
 
@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class App {
-    private final static Logger LOGGER = LogManager.getLogger(App.class.getSimpleName());
+    private final static Logger LOGGER = LogManager.getLogger(by.epam.webdevelopment.main.App.class.getSimpleName());
 
     public static void main(String[] args) {
         NumberValidator validator = new NumberValidatorByStringPattern();
@@ -32,7 +32,7 @@ public class App {
         List<CustomNumber> numbers;
 
         try {
-            FileInputStream inputStream = new FileInputStream("src/main/resources/numbers");
+            FileInputStream inputStream = new FileInputStream("src/main/resources/data/numbers");
             numbers = reader.readNumbersFromInputStream(inputStream);
             double answer;
             for (ArithmeticAction action: actions) {
